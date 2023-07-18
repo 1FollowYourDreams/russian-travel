@@ -5,30 +5,28 @@
   background-position: center;
   text-decoration: none;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   position: relative;
   width: 100%;
   padding: 20% 0;
-  z-index: 1;
 }
 
 .cover__overlay::before {
-  z-index: 2;
   opacity: .3;
   transition: opacity .2s linear;
-  background-color: #2a2c2f;
+  background: #2a2c2f;
   position: absolute;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
+  content: '';
 }
 
 .cover__overlay:hover::before {
-  cursor: pointer;
   opacity: .8;
 }
 

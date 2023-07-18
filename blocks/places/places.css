@@ -24,8 +24,8 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .places {
+    width: calc(100% - 48px);
     padding-top: 88px;
-    width: calc(100% - 48px); 
   }
 }
 

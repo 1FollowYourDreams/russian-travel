@@ -19,14 +19,14 @@
   }
 }
 
+@media (min-width: 426px) and (max-width: 1023px) {
+  .footer {
+    width: calc(100% - 48px);
+  }
+}
+
 @media (max-width: 425px) {
   .footer {
-     width: calc(100% - 32px);
+    width: calc(100% - 32px);
   }
- }
-
- @media (min-width: 426px) and (max-width: 1023px) {
-  .footer {
-     width: calc(100% - 48px);
-  }
- }
+}

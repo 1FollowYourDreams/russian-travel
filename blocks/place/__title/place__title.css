@@ -4,10 +4,10 @@
   padding-right: 40px;
   box-sizing: border-box;
   width: 50%;
-  font-weight: 900;
   font-size: 72px;
+  font-weight: 900;
   line-height: 0.91;
-  color: #fff;   
+  color: #fff;
 }
 
 @media (max-width: 767px) {
