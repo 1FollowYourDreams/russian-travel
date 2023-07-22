@@ -13,3 +13,9 @@
     max-width: 1184px;
   }
 }
+
+@media (max-width: 320px) {
+  .content {
+    padding-top: 48px;
+  }
+}

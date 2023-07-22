@@ -1,16 +1,9 @@
 .place__paragraph {
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  margin: 0 0 24px;
   font-size: 18px;
   line-height: 30px;
-  margin-bottom: 24px;
+  font-weight: 400;
 }
-
-.place__paragraph:last-of-type {
-  margin-bottom: 0;
-}
-
 
 @media (max-width: 768px) {
   .place__paragraph {
@@ -19,14 +12,9 @@
   }
 }
 
-@media (max-width: 670px) {
-  .place__paragraph {
-    padding: 0 16px;
-  }
-}
-
 @media (max-width: 320px) {
   .place__paragraph {
+    margin: 0 16px 24px 16px;
     font-size: 16px;
     line-height: 26px;
   }

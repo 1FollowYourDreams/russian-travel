@@ -12,16 +12,18 @@
   width: calc(100% - 96px);
 }
     
-@media (min-width: 320px) and (max-width: 425px) {
-  .header {
-   margin: 0 48px;
-   width: 90%;
+@media screen and (max-width: 1024px) { 
+  .header { 
+     width: calc(100% - 48px);
+     margin-bottom: 48px;
   }
 }
 
-@media (min-width: 426px) and (max-width: 1023px) {
-  .header {
-   width: calc(100% - 48px);
-  }
+@media screen and (max-width: 425px) { 
+  .header { 
+    padding-top: 16px;
+     margin: 0 16px; 
+     width: calc(100% - 32px);
+  } 
 }
 

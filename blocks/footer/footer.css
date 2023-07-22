@@ -7,7 +7,6 @@
   flex-direction: row;
   width: calc(100% - 96px);
   justify-content: space-between;
-  list-style-type: none;
   flex-wrap: nowrap;
   max-width: 1184px;
 }
